@@ -27,7 +27,7 @@ struct properties_t
     unsigned repeat_send;       ///< период генерации кадров
     unsigned repeat_report;     ///< период генерации файлов с результатами вычислений
     char *folder;               ///< каталог для файлов с результатами вычислений
-};  ///< значения командной строки
+};
 
 class frame_factory_t
 {
